@@ -3,90 +3,89 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
- 
+
+
 html {
     scroll-behavior: smooth;
 }
- 
- 
+
+
 body {
     background-color: #ffffff;
     font-family: 'Lexend Deca', sans-serif;
     color: #111111;
 }
- 
- 
+
+
 /* HEADER */
- 
+
 .cabecalho {
     width: 90%;
     min-height: 10vh;
     margin: 5vh auto 0;
     padding: 2vh 2vw;
- 
+
     background-color: #ffffff;
- 
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
- 
- 
+
+
 .logo {
     color: #111111;
     text-decoration: none;
- 
+
     font-size: clamp(1.2rem, 2vw, 2.2rem);
     font-weight: 600;
 }
- 
- 
+
+
 .navegacao {
     display: flex;
     align-items: center;
     gap: 3vw;
 }
- 
- 
+
+
 .navegacao a {
     color: #111111;
     text-decoration: none;
- 
     font-size: clamp(1rem, 1.2vw, 1.5rem);
 }
- 
- 
+
+
 .botao-shop {
     border: none;
- 
+
     background-color: #1d1d1d;
     color: #ffffff;
- 
+
     padding: 1.5vh 2vw;
- 
+
     font-family: 'Lexend Deca', sans-serif;
     font-size: clamp(1rem, 1.2vw, 1.5rem);
- 
+
     cursor: pointer;
- 
+
     transition: 0.3s;
 }
- 
- 
+
+
 .botao-shop:hover {
     background-color: #555555;
 }
- 
- 
+
+
 /* LANDING */
- 
+
 .landing {
     width: 90%;
     margin: 0 auto;
 }
- 
- 
+
+
 .imagem-topo {
     width: 100%;
     height: 40vh;
@@ -94,209 +93,209 @@ body {
     justify-content: space-between;
     display: flex;
 }
- 
- 
+
+
 .imagem-topo img {
     width: 50%;
     height: 50%;
     object-fit: cover;
 }
- 
-.maisTexto{
+
+.maisTexto {
     text-align: center;
     justify-content: center;
     padding: 15%;
 }
- 
+
 /* SOBRE */
- 
+
 .sobre {
     width: 90%;
     margin: 20vh auto 10vh;
- 
+
     background-color: #ffffff;
 }
- 
- 
+
+
 .sobre-conteudo {
     min-height: 45vh;
- 
+
     padding: 7vh 8vw;
- 
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
- 
- 
+
+
 .sobre h1 {
     font-size: clamp(3rem, 4vw, 5rem);
     font-weight: 500;
- 
+
     margin-bottom: 8vh;
 }
- 
- 
+
+
 .sobre p {
     width: 70%;
     margin: 0 auto;
- 
+
     text-align: center;
- 
+
     font-size: clamp(1.5rem, 2vw, 2.5rem);
     line-height: 1.4;
 }
- 
- 
+
+
 .imagem-sobre {
     width: 100%;
     height: 35vh;
- 
+
     overflow: hidden;
 }
- 
- 
+
+
 .imagem-sobre img {
     width: 100%;
     height: 100%;
- 
+
     object-fit: cover;
 }
- 
- 
+
+
 /* CATALOGO */
- 
+
 .catalogo {
     width: 90%;
     margin: 5vh auto 10vh;
- 
+
     padding: 5vh 3vw;
- 
+
     background-color: #ffffff;
 }
- 
- 
+
+
 /* FILTROS */
- 
+
 .filtros {
     display: flex;
     align-items: flex-start;
- 
+
     gap: 2vw;
- 
+
     margin-bottom: 4vh;
- 
+
     flex-wrap: wrap;
 }
- 
- 
+
+
 .filtro {
     position: relative;
 }
- 
- 
+
+
 .botao-filtro {
     border: none;
- 
+
     background-color: #1d1d1d;
     color: #ffffff;
- 
+
     padding: 1.5vh 2vw;
- 
+
     font-family: 'Lexend Deca', sans-serif;
     font-size: clamp(1rem, 1.2vw, 1.5rem);
- 
+
     cursor: pointer;
- 
+
     transition: 0.3s;
 }
- 
- 
+
+
 .botao-filtro:hover {
     background-color: #555555;
 }
- 
- 
+
+
 .botao-filtro.focado {
     outline: 0.2em solid #888888;
     outline-offset: 0.2em;
 }
- 
- 
+
+
 .opcoes-filtro {
     display: none;
- 
+
     position: absolute;
- 
+
     top: 110%;
     left: 0;
- 
+
     width: max-content;
     min-width: 100%;
     max-width: 35vw;
- 
+
     background-color: #1d1d1d;
- 
+
     padding: 1vh;
- 
+
     z-index: 10;
- 
+
     flex-direction: column;
- 
+
     gap: 0.5vh;
 }
- 
- 
+
+
 .opcoes-filtro.ativo {
     display: flex;
 }
- 
- 
+
+
 .opcoes-filtro button {
     width: 100%;
- 
+
     border: none;
- 
+
     background-color: #1d1d1d;
     color: #ffffff;
- 
+
     padding: 1vh 1vw;
- 
+
     font-family: 'Lexend Deca', sans-serif;
     font-size: clamp(0.9rem, 1vw, 1.3rem);
- 
+
     cursor: pointer;
- 
+
     text-align: left;
- 
+
     white-space: nowrap;
 }
- 
- 
+
+
 .opcoes-filtro button:hover {
     background-color: #555555;
 }
- 
- 
+
+
 /* DISCOS */
- 
+
 .vinil {
     position: relative;
- 
+
     width: 100%;
     min-height: 22vh;
- 
+
     margin-bottom: 2vh;
- 
+
     padding: 2vh 2vw;
- 
+
     display: flex;
     align-items: center;
- 
+
     transition: 0.3s;
 }
- 
- 
+
+
 .vinil-rosa,
 .vinil-amarelo,
 .vinil-verde,
@@ -304,327 +303,326 @@ body {
 .vinil-roxo {
     background-color: #d0d0d0;
 }
- 
- 
+
+
 /* EFEITO MOUSEOVER */
- 
+
 .vinil.passou-mouse {
     transform: scale(1.01);
     filter: brightness(1.08);
 }
- 
- 
+
+
 /* CAPA */
- 
+
 .capa {
     width: 20%;
- 
+
     aspect-ratio: 1 / 1;
- 
+
     overflow: hidden;
- 
+
     flex-shrink: 0;
 }
- 
- 
+
+
 .capa img {
     width: 100%;
     height: 100%;
- 
+
     object-fit: cover;
- 
+
     transition: 0.3s;
 }
- 
- 
+
+
 .vinil.passou-mouse .capa img {
     transform: scale(1.04);
 }
- 
- 
+
+
 /* INFORMACOES */
- 
+
 .informacoes {
     width: 65%;
- 
+
     padding-left: 2vw;
 }
- 
- 
+
+
 .informacoes h2 {
     font-size: clamp(1.2rem, 1.5vw, 2rem);
     font-weight: 700;
- 
+
     margin-bottom: 0.5vh;
 }
- 
- 
+
+
 .informacoes p {
     font-size: clamp(1rem, 1.1vw, 1.5rem);
- 
+
     margin-bottom: 0.5vh;
 }
- 
- 
+
+
 /* BOTAO + */
- 
+
 .botao-adicionar {
     position: absolute;
- 
+
     right: 2vw;
     top: 2vh;
- 
+
     border: none;
- 
+
     background: none;
- 
+
     font-family: 'Lexend Deca', sans-serif;
     font-size: clamp(2rem, 2.5vw, 3rem);
- 
+
     cursor: pointer;
- 
+
     display: none;
 }
- 
- 
+
+
 .contador-item {
     position: absolute;
- 
+
     right: 2vw;
     top: 8vh;
- 
+
     font-size: clamp(1rem, 1.2vw, 1.5rem);
- 
+
     display: none;
 }
- 
- 
+
+
 .catalogo.shop-ativo .botao-adicionar {
     display: block;
 }
- 
- 
+
+
 .catalogo.shop-ativo .contador-item {
     display: block;
 }
- 
- 
+
+
 /* CORES DOS DISCOS SELECIONADOS */
- 
+
 .vinil.selecionado.vinil-rosa {
     background-color: #e9a6ad;
 }
- 
- 
+
+
 .vinil.selecionado.vinil-amarelo {
     background-color: #f1d477;
 }
- 
- 
+
+
 .vinil.selecionado.vinil-verde {
     background-color: #9bd49b;
 }
- 
- 
+
+
 .vinil.selecionado.vinil-azul {
     background-color: #9dbfe3;
 }
- 
- 
+
+
 .vinil.selecionado.vinil-roxo {
     background-color: #c3a4d8;
 }
- 
- 
+
 /* FOOTER */
- 
+
 .rodape {
     width: 90%;
- 
+
     margin: 0 auto 5vh;
- 
+
     padding: 4vh 2vw;
- 
+
     background-color: #1d1d1d;
- 
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
- 
- 
+
+
 .rodape p {
     font-size: clamp(1rem, 1.2vw, 1.5rem);
     font-weight: 600;
     color: #ffffff;
 }
- 
- 
+
+
 .rodape a {
     color: #ffffff;
- 
+
     text-decoration: none;
- 
+
     font-size: clamp(0.9rem, 1vw, 1.3rem);
 }
- 
- 
+
+
 /* RESPONSIVIDADE */
- 
+
 @media (max-width: 70vw) {
- 
+
     .cabecalho {
         width: 94%;
     }
- 
- 
+
+
     .catalogo,
     .sobre,
     .landing,
     .rodape {
         width: 94%;
     }
- 
- 
+
+
     .sobre p {
         width: 80%;
     }
- 
+
 }
- 
- 
+
+
 @media (max-width: 55vw) {
- 
+
     .cabecalho {
         flex-direction: column;
         gap: 2vh;
     }
- 
- 
+
+
     .navegacao {
         width: 100%;
- 
+
         justify-content: space-between;
- 
+
         gap: 2vw;
     }
- 
- 
+
+
     .sobre-conteudo {
         min-height: 40vh;
- 
+
         padding: 5vh 5vw;
     }
- 
- 
+
+
     .sobre h1 {
         margin-bottom: 5vh;
     }
- 
- 
+
+
     .sobre p {
         width: 90%;
     }
- 
- 
+
+
     .vinil {
         min-height: 20vh;
     }
- 
- 
+
+
     .capa {
         width: 25%;
     }
- 
- 
+
+
     .informacoes {
         width: 65%;
     }
- 
+
 }
- 
- 
+
+
 @media (max-width: 40vw) {
- 
+
     .cabecalho {
         margin-top: 2vh;
     }
- 
- 
+
+
     .navegacao {
         flex-wrap: wrap;
     }
- 
- 
+
+
     .imagem-topo {
         height: 25vh;
     }
- 
- 
+
+
     .imagem-sobre {
         height: 25vh;
     }
- 
- 
+
+
     .filtros {
         flex-direction: column;
- 
+
         align-items: stretch;
     }
- 
- 
+
+
     .filtro {
         width: 100%;
     }
- 
- 
+
+
     .botao-filtro {
         width: 100%;
     }
- 
- 
+
+
     .opcoes-filtro {
         width: 100%;
- 
+
         max-width: 100%;
     }
- 
- 
+
+
     .vinil {
         min-height: 18vh;
- 
+
         padding: 2vh 2vw;
- 
+
         align-items: flex-start;
     }
- 
- 
+
+
     .capa {
         width: 30%;
     }
- 
- 
+
+
     .informacoes {
         width: 62%;
     }
- 
- 
+
+
     .sobre-conteudo {
         min-height: 45vh;
     }
- 
- 
+
+
     .sobre p {
         width: 100%;
     }
- 
- 
+
+
     .rodape {
         flex-direction: column;
- 
+
         gap: 2vh;
- 
+
         text-align: center;
     }
- 
+
 }
